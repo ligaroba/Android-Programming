@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+     android:background="@color/creambg" >
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:background="@color/widgetbg"  
+        >
+
+         <TextView
+             android:id="@+id/assetnamelabel"
+             android:layout_width="0dp"
+             android:layout_height="53dp"
+             android:layout_marginTop="0dp"
+             android:layout_weight="1"
+            android:hint="@string/assetname" />
+		  
+         <Button
+             android:id="@+id/btnmakereport"
+             android:layout_width="40dp"
+             android:layout_height="40dp"
+             android:background="@color/widgetbg"
+             android:drawableRight="@android:drawable/ic_menu_report_image"
+            
+            />
+         <Button
+             android:id="@+id/btnedit"
+             android:layout_width="40dp"
+             android:layout_height="40dp"
+             android:background="@color/widgetbg"
+             android:drawableRight="@android:drawable/ic_menu_edit"
+            
+            />
+          <Button
+             android:id="@+id/btndelete"
+             android:layout_width="40dp"
+             android:layout_height="40dp"
+             android:background="@color/widgetbg"
+             android:drawableRight="@android:drawable/ic_menu_delete"
+            
+            />
+     
+		
+        
+	</LinearLayout>
+
+     <RelativeLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content" >
+
+         <TextView
+             android:id="@+id/groupnamelabel"
+             style="@style/textview_table"
+             android:text="@string/groupname" />
+
+         <TextView
+             android:id="@+id/groupname"
+             style="@style/textview_table"
+             android:layout_toRightOf="@+id/groupnamelabel"
+             android:hint="@string/groupname" />
+
+         <TextView
+             android:id="@+id/txttype"
+             style="@style/textview_table"
+              android:layout_toRightOf="@+id/groupname"
+              android:text="@string/type" />
+
+         <TextView
+             android:id="@+id/typename"
+             style="@style/textview_table"
+             android:layout_toRightOf="@+id/txttype"
+             android:hint="@string/type" />
+
+         
+     </RelativeLayout>
+
+				<LinearLayout
+				    android:layout_width="match_parent"
+				    android:layout_height="wrap_content"
+				    android:orientation="horizontal"
+				    android:background="@color/widgetbg" >
+
+				    <TextView
+				        android:id="@+id/datecreated"
+				        style="@style/textview_table.background"
+				        android:text="@string/datecreated" />
+
+				    <TextView
+				        android:id="@+id/showdatecreated"
+				        style="@style/textview_table"
+				        android:hint="@string/datecreated" />
+				  
+				</LinearLayout>
+
+</LinearLayout>

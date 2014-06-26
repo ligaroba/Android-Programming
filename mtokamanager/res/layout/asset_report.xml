@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp"
+        >
+        
+        
+         <EditText
+            android:id="@+id/search_asset"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/search" 
+            android:layout_weight="1"
+            android:layout_marginLeft="5dp"
+            android:inputType="text"
+            android:drawableRight="@android:drawable/ic_menu_search"/>
+
+         <Button
+             android:id="@+id/btnadd"
+             android:layout_width="50dp"
+             android:layout_height="50dp"
+             android:drawableRight="@android:drawable/ic_input_add"
+            
+            />
+
+    </LinearLayout>
+     <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp"
+        >
+        
+        
+         <EditText
+            android:id="@+id/add_category"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/group_add" 
+            android:layout_weight="1"
+            android:layout_marginLeft="5dp"
+            android:inputType="text"
+           />
+
+         <Button
+             android:id="@+id/btnaddcategory"
+             android:layout_width="50dp"
+             android:layout_height="50dp"
+             android:drawableRight="@android:drawable/ic_input_add"
+            
+            />
+         
+         <Button
+             android:id="@+id/btneditcategory"
+             android:layout_width="50dp"
+             android:layout_height="50dp"
+             android:drawableRight="@android:drawable/ic_menu_edit"
+            
+            />
+         
+         <Button
+             android:id="@+id/btndelcategory"
+             android:layout_width="50dp"
+             android:layout_height="50dp"
+             android:drawableRight="@android:drawable/ic_menu_delete"
+            
+            />
+
+    </LinearLayout>
+    
+    
+
+   
+
+</LinearLayout>
