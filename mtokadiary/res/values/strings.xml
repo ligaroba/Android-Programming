@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">"Mtoka"</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_example">Example action</string>
+    <string name="action_settings">Settings</string>
+    <string name="fname">First Name</string>
+    <string name="lname">Last Name</string>
+    <string name="phone">Phone Number</string>
+    <string name="password">Password</string>
+    <string name="Cpassword">Confirm Password</string>
+    <string name="email">someone@hostname.com</string>
+    <string name="signup">Sign UP</string>
+    <string name="login">Login</string>
+    <string name="policy_statement">By proceeding to sign Up you agree to policy and terms and condition of Dinga Manager</string>
+        <string name="manage_asset">Manage Asset</string>
+    <string name="report">Generate Report</string>
+     <string name="drawer_open">Open drawer</string>
+    <string name="drawer_close">Close drawer</string>
+    
+     <string name="assetname">Asset Name</string>
+     <string name="groupname">Group Name:</string>
+     <string name="totalExpenses">Total Expenses</string>
+     <string name="totalReturns">Total Returns</string>
+     <string name="profitloss">Profit/Loss</string>
+      <string name="datecreated">Created at:</string>
+       <string name="reportdate">Report Date:</string>
+      <string name="search">Search Asset</string>
+      
+      
+     <string name="chargesrush">Enter Rush hr Charges</string>
+      <string name="chargesnomal">Enter Normal hrs Charges</string>
+       <string name="revenue">Fill in Revenue Information</string>
+       <string name="expense">Fill in Expense Information</string>
+       <string name="fuelcost">Fuel costs</string>
+       <string name="maintenace">Maintenace costs</string>
+       <string name="parking">Parking costs</string>
+       <string name="insurance">Insurance costs</string>
+       <string name="other">Other costs</string>
+       <string name="startcapital">Fill in Starting Capital</string>
+       <string name="makereport">Make Report</string>
+       <string name="startAmount">Starting Amount</string>
+      
+      
+        <string name="model">Model:</string>
+          <string name="type"> Type:</string>
+            <string name="assetcapacity">Cap:</string>
+          <string name="category"> Category:</string>
+           <string name="incharge">incharge:</string>
+             
+               
+               
+               
+               
+               
+          <string name="selgroup"> Select Group Name</string>
+          <string name="selcategory"> Select Category Name</string>
+           <string name="seltypeAsset"> Select Asset Use</string>
+           <string name="selemp"> Select Incharge</string>
+          <string name="selassistant"> Select Driver Assistance</string>
+              <string name="group_add"> Add </string>
+               <string name="cancel"> Cancel</string>
+                 <string name="capacity"> Asset Capacity</string>
+                <string name="add_group_fragment"> Add New group</string>
+                 <string name="add_incharge_fragment"> Add New Incharge</string>
+                <string name="assetid"> KBA 567G</string>
+                 <string name="asset_add"> Add Asset</string>
+                 <string name="add_asset_fragment"> Add New Asset</string>
+                 <string name="inchargeusername"> Enter incharge username</string>
+                 <string name="inchargenames"> Enter incharge fullnames</string>
+                 <string name="groupName"> Enter Group Name</string>
+                 <string name="username">username</string>
+                 <string name="typeuse">vehicle daily report </string>
+                
+      
+
+</resources>

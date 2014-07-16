@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" 
+     android:background="@color/creambg">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent"
+        android:layout_height="10dp"
+        android:background="@color/creambg"
+       />
+ <LinearLayout
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:background="@color/creambg" 
+     android:orientation="horizontal"
+     android:gravity="center_horizontal">
+   
+
+				         <TextView
+				             android:id="@+id/showtypeuse"
+				             style="@style/textview_table"
+				             android:layout_width="wrap_content"
+				             android:hint="@string/reportdate" />
+				           <TextView
+				        android:id="@+id/typesuse"
+				        style="@style/textview_table"
+				        android:text="@string/typeuse"
+				        android:layout_marginLeft="20dp" />
+				  		
+</LinearLayout>
+     <RelativeLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:background="#fff" >
+
+       
+
+         <TextView
+             android:id="@+id/texpenses"
+             style="@style/textview_table"
+            android:text="@string/totalExpenses"
+            android:textStyle="bold" />
+
+         <TextView
+             android:id="@+id/profitloss"
+             style="@style/textview_table"
+             android:layout_below="@+id/texpenses"
+             android:text="@string/profitloss"
+             android:textStyle="bold" />
+
+         <TextView
+             android:id="@+id/showprofitloss"
+             style="@style/textview_table"
+             android:layout_below="@+id/showreturns"
+             android:layout_toRightOf="@+id/returns"
+             android:hint="@string/profitloss" />
+
+         <TextView
+             android:id="@+id/showreturns"
+             style="@style/textview_table"
+             android:layout_above="@+id/profitloss"
+             android:layout_alignParentRight="true"
+             android:hint="@string/totalReturns" />
+
+         <TextView
+             android:id="@+id/returns"
+             style="@style/textview_table"
+             android:layout_above="@+id/showprofitloss"
+             android:layout_toLeftOf="@+id/showreturns"
+             android:text="@string/totalReturns" 
+             android:textStyle="bold"/>
+
+         <TextView
+             android:id="@+id/showtexpenses"
+             style="@style/textview_table"
+             android:layout_above="@+id/profitloss"
+             android:layout_toRightOf="@+id/texpenses"
+             android:hint="@string/totalExpenses" />
+      
+     </RelativeLayout>
+ <LinearLayout
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:background="@color/creambg" 
+     android:orientation="horizontal"
+     android:gravity="center_horizontal">
+     <TextView
+				        android:id="@+id/reporteddate"
+				        style="@style/textview_table"
+				        android:text="@string/reportdate"
+				        android:layout_marginLeft="20dp" />
+
+				         <TextView
+				             android:id="@+id/showreporteddate"
+				             style="@style/textview_table"
+				             android:layout_width="wrap_content"
+				             android:hint="@string/reportdate" />
+				  		
+</LinearLayout>
+</LinearLayout>

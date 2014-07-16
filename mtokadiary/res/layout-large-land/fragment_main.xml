@@ -1,0 +1,41 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:id="@+id/container">
+
+   
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:onClick="buttonClicked"
+        android:drawableTop="@android:drawable/ic_menu_send"
+        android:text="@string/login" />
+    <FrameLayout
+         android:id="@+id/fragment_space"
+         android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:layout_toRightOf="@+id/register"
+		
+		
+	     >
+	   
+        
+        
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/register"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/login"
+        android:drawableTop="@android:drawable/ic_menu_send"
+         android:onClick="buttonClicked"
+        android:text="@string/signup" />
+
+
+</RelativeLayout>

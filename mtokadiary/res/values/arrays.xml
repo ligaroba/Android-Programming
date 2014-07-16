@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="ns_menu_items">
+        <item>ns_menu_snippet1</item>
+        <item>ns_menu_snippet2</item>
+        <item>ns_menu_snippet3</item>
+        <item>ns_menu_snippet4</item>
+        <item>ns_menu_snippet5</item>
+        <item>ns_menu_snippet6</item>
+        <item>ns_menu_snippet7</item>
+    </string-array>
+
+    <array name="ns_menu_items_icon">
+        <item>ic_action_settings</item>
+        <item>ic_save</item>
+        <item>action_add</item>
+        <item>ic_launcher_</item>
+        <item>action_add</item>
+        <item>ic_action_settings</item>
+        <item>ic_launcher_</item>
+    </array>
+  
+    <string-array name="report_array">
+        <item>View all </item>
+        <item>View all by Group</item>
+        <item>Rank all</item>
+      
+    </string-array>
+    <string-array name="assettype_array">
+         <item>Select asset use </item>
+        <item>Personal</item>
+        <item>Commercial</item>
+       
+    </string-array>
+     
+    <string-array name="vehicle_category">
+        <item>Select type of asset </item>
+        <item>Bus</item>
+        <item>Cars</item>
+        <item>Matatu</item>
+         <item>Lorries</item>
+        <item>Heavy Commercial</item>     
+    </string-array>
+     <string-array name="trips">
+       <item>Trips</item> 
+        <item>1 </item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+         <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item> 
+        <item>9</item>
+        <item>10</item>      
+    </string-array>
+    
+
+   <string-array name="context_menu">
+       
+        <item>Make Report</item>
+        <item>View daily Perfomance</item>
+        <item>Edit</item>
+         <item>Delete</item>
+          
+    </string-array>
+   
+
+</resources>

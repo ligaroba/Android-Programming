@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+     android:background="@color/creambg" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent"
+        android:layout_height="5dp"
+        android:background="#fff"
+        />
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:background="@color/widgetbg"  
+        >
+
+         <TextView
+             android:id="@+id/assetnamelabel"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="10dp"
+             android:layout_weight="1"
+            android:hint="@string/assetname" />
+		  
+       
+     
+		
+        
+	</LinearLayout>
+
+     <RelativeLayout
+         android:layout_width="match_parent"
+         android:layout_height="40dp"
+          android:background="#fff" >
+
+         <TextView
+             android:id="@+id/groupnamelabel"
+             style="@style/textview_table"
+               android:layout_marginLeft="5dp"
+             android:text="@string/groupname" />
+
+         <TextView
+             android:id="@+id/groupname"
+             style="@style/textview_table"
+             android:layout_toRightOf="@+id/groupnamelabel"
+             android:hint="@string/groupname" />
+
+         <TextView
+             android:id="@+id/txttype"
+             style="@style/textview_table"
+             android:layout_marginLeft="10dp"
+              android:layout_toRightOf="@+id/groupname"
+              android:text="@string/type" />
+
+         <TextView
+             android:id="@+id/typename"
+             style="@style/textview_table"
+              android:layout_marginLeft="5dp"
+             android:layout_toRightOf="@+id/txttype"
+             android:hint="@string/type" />
+         <TextView
+             android:id="@+id/txtcapacity"
+             style="@style/textview_table"
+              android:layout_marginLeft="20dp"
+              android:layout_toRightOf="@+id/typename"
+              android:text="@string/assetcapacity" />
+
+         <TextView
+             android:id="@+id/capacity"
+             style="@style/textview_table"
+              android:layout_marginLeft="5dp"
+             android:layout_toRightOf="@+id/txtcapacity"
+             android:hint="@string/assetcapacity" />
+        
+         <TextView
+             android:id="@+id/txtmodel"
+             style="@style/textview_table"
+              android:layout_marginLeft="5dp"
+              android:layout_below="@+id/groupname"
+              android:text="@string/model" />
+
+         <TextView
+             android:id="@+id/model"
+             style="@style/textview_table"
+             android:layout_toRightOf="@+id/txtmodel"
+              android:layout_marginLeft="5dp"
+              android:layout_below="@+id/groupname"
+             android:hint="@string/model" />
+          
+         <TextView
+             android:id="@+id/txtcategory"
+             style="@style/textview_table"
+              android:layout_marginLeft="15dp"
+              android:layout_toRightOf="@+id/model"
+              android:layout_below="@+id/txttype"
+              android:text="@string/category" />
+
+         <TextView
+             android:id="@+id/category"
+             style="@style/textview_table"
+              android:layout_marginLeft="5dp"
+             android:layout_toRightOf="@+id/txtcategory"
+              android:layout_below="@+id/typename"
+             android:hint="@string/category" />
+         
+            <TextView
+             android:id="@+id/txtincharge"
+             style="@style/textview_table"
+              android:layout_marginLeft="10dp"
+              android:layout_toRightOf="@+id/category"
+              android:layout_below="@+id/txtcapacity"
+              android:text="@string/incharge" />
+
+         <TextView
+             android:id="@+id/incharge"
+             style="@style/textview_table"
+              android:layout_marginLeft="5dp"
+             android:layout_toRightOf="@+id/txtincharge"
+              android:layout_below="@+id/capacity"
+             android:hint="@string/incharge" />
+
+         
+
+         
+     </RelativeLayout>
+
+				<LinearLayout
+				    android:layout_width="match_parent"
+				    android:layout_height="wrap_content"
+				    android:orientation="horizontal"
+				    android:background="@color/widgetbg" >
+
+				    <TextView
+				        android:id="@+id/datecreated"
+				        style="@style/textview_table.background"
+				        android:text="@string/datecreated" />
+
+				    <TextView
+				        android:id="@+id/showdatecreated"
+				        style="@style/textview_table"
+				        android:hint="@string/datecreated" />
+				  
+				</LinearLayout>
+
+</LinearLayout>

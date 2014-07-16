@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <EditText
+            android:id="@+id/signup_fname"
+            style="@style/generalFonts.editext"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="@string/fname" >
+
+            <requestFocus />
+        </EditText>
+
+        <EditText
+            android:id="@+id/signup_lname"
+            style="@style/generalFonts.editext"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="@string/lname" >
+
+            <requestFocus />
+        </EditText>
+
+        <EditText
+            android:id="@+id/signup_pone"
+            style="@style/generalFonts.editext"
+            android:ems="10"
+            android:inputType="phone"
+            android:text="@string/phone" >
+
+            <requestFocus />
+        </EditText>
+
+        <EditText
+            android:id="@+id/signup_email"
+            style="@style/generalFonts.editext"
+            android:ems="10"
+            android:inputType="textEmailAddress"
+            android:text="@string/email" >
+
+            <requestFocus />
+        </EditText>
+
+        <EditText
+            android:id="@+id/signup_password"
+            style="@style/generalFonts.editext"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:text="@string/password" >
+
+            <requestFocus />
+        </EditText>
+
+        <EditText
+            android:id="@+id/signup_cpassword"
+            style="@style/generalFonts.editext"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:text="@string/Cpassword" >
+
+            <requestFocus />
+        </EditText>
+
+        <Button
+            android:id="@+id/btn_signup"
+            style="@style/generalFonts.buttons"
+            android:ems="10"
+            android:text="@string/signup" />
+
+        <TextView
+            android:id="@+id/txtpolicy"
+            style="@style/generalFonts.textview"
+            android:text="@string/policy_statement" />
+    </LinearLayout>
+
+</ScrollView>

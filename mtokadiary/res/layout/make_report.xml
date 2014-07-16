@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+ 
+    <TextView
+        android:id="@+id/capitalinfo"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+         style="@style/general.textview"
+        android:gravity="center_horizontal"
+        android:text="@string/startcapital" />
+     
+        <EditText
+            android:id="@+id/edtstartamount"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="#fff"
+            android:ems="10"
+            android:hint="@string/startAmount"
+            android:inputType="number" />
+    
+    <TextView
+        android:id="@+id/revenueinfo"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+         style="@style/general.textview"
+        android:gravity="center_horizontal"
+        android:text="@string/revenue" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        style="@style/generalFonts.background"
+        >
+
+        <EditText
+            android:id="@+id/edtchargersrush"
+            android:layout_width="260dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/chargesrush"
+            android:inputType="number" />
+        <Spinner
+            android:id="@+id/spintripsrush"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
+            android:layout_toRightOf="@+id/edtchargersrush"
+            android:entries="@array/trips" />
+
+       
+
+      
+
+        <EditText
+            android:id="@+id/edtchargersnomal"
+            android:layout_width="260dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/spintripsrush"
+            android:ems="10"
+            android:hint="@string/chargesnomal"
+            android:inputType="number" />
+        
+        
+          <Spinner
+            android:id="@+id/spintripsnomal"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/spintripsrush"
+            android:layout_toRightOf="@+id/edtchargersnomal"
+            android:entries="@array/trips" />
+
+    </RelativeLayout>
+    
+    
+    <TextView
+        android:id="@+id/expenseinfo"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+         style="@style/general.textview"
+        android:gravity="center_horizontal"
+        android:text="@string/expense" />
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+       >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"           
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            style="@style/generalFonts.background">
+            
+            
+             
+        <EditText
+            android:id="@+id/edtfuelcost"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+             android:layout_margin="10dp"
+            android:ems="10"
+           android:hint="@string/fuelcost"
+            android:inputType="number" />
+             
+       
+          <EditText
+            android:id="@+id/edtinsurancecost"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+             android:layout_margin="10dp"
+            android:ems="10"
+            android:hint="@string/insurance"
+            android:inputType="number" />
+            <EditText
+            android:id="@+id/edtmaitencecost"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+             android:layout_margin="10dp"
+            android:ems="10"
+            android:hint="@string/maintenace"
+            android:inputType="number" />
+              <EditText
+            android:id="@+id/edtparkingcost"
+           android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+             android:layout_margin="10dp"
+            android:ems="10"
+            android:hint="@string/parking"
+            android:inputType="number" />
+        
+                    <EditText
+            android:id="@+id/edtothercost"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+             android:layout_margin="10dp"
+            android:ems="10"
+             android:hint="@string/other"
+            android:inputType="number" />
+		 <Button
+	      android:id="@+id/btnmakereport"
+	      style="@style/generalFonts.buttons"
+	      android:layout_width="fill_parent"
+	      android:layout_height="wrap_content"
+	      android:text="@string/makereport" />
+             
+        </LinearLayout>
+            
+    </ScrollView>
+    
+	 
+
+</LinearLayout>
