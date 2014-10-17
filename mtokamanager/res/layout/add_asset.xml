@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/scrollasset"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="vertical" >
+
+            <EditText
+                android:id="@+id/edtassetId"
+                style="@style/general.editext"
+                android:ems="10"
+               	android:hint="@string/assetid"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/edcapacity"
+                style="@style/general.editext"
+                android:ems="10"
+                android:hint="@string/capacity"
+                android:inputType="number"
+               />
+            <EditText
+                android:id="@+id/edmodel"
+                style="@style/general.editext"
+                android:ems="10"
+                android:hint="@string/model"
+                android:inputType="textPersonName" />
+            
+            <TextView
+                android:id="@+id/seltypasset"
+                 style="@style/general.textview"
+                android:text="@string/seltypeAsset"
+                 />
+
+            <Spinner
+                android:id="@+id/spintypeasset"
+                style="@style/general.spinner"
+                android:entries="@array/assettype_array" />
+
+            <TextView
+                android:id="@+id/selcategory"
+                style="@style/general.textview"
+                android:text="@string/selcategory"
+                 />
+
+            <Spinner
+                android:id="@+id/spincategory"
+                style="@style/general.spinner"
+                android:entries="@array/vehicle_category" />
+
+            <TextView
+                android:id="@+id/selgroup"
+                style="@style/general.textview"
+                android:text="@string/selgroup" />
+
+            <Spinner
+                android:id="@+id/spingroupname"
+                style="@style/general.spinner"
+                 />
+
+            <TextView
+                android:id="@+id/seldriver"
+                style="@style/general.textview"
+                android:text="@string/seldriver" />
+
+            <Spinner
+                android:id="@+id/spindriver"
+                style="@style/general.spinner"
+                android:entries="@array/drivers" />
+
+            <TextView
+                android:id="@+id/selassistant"
+                style="@style/general.textview"
+                android:text="@string/selassistant" />
+
+            <Spinner
+                android:id="@+id/spintout"
+                style="@style/general.spinner"
+                android:entries="@array/Assistant" />
+        
+		
+		    <Button
+		        android:id="@+id/btnaddasset"
+		        android:layout_width="fill_parent"
+		        style="@style/generalFonts.buttons"
+		        android:text="@string/asset_add" />
+    
+
+        </LinearLayout>
+		        
+    </ScrollView>
+
+</LinearLayout>

@@ -1,3 +1,8 @@
 eclipse.preferences.version=1
+<<<<<<< HEAD
 org.eclipse.rse.systemtype.local.systemType.defaultUserId=root
 useridperkey=ligaroba.Local\=root;
+=======
+org.eclipse.rse.systemtype.local.systemType.defaultUserId=ligaroba
+useridperkey=ligaroba.Local\=ligaroba;
+>>>>>>> 11fb2499edb6234d39500f337e206f2e3a138163

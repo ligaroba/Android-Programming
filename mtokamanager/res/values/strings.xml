@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">"Mtoka"</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_example">Example action</string>
+    <string name="action_settings">Settings</string>
+    <string name="fname">First Name</string>
+    <string name="lname">Last Name</string>
+    <string name="phone">Phone Number</string>
+    <string name="password">Password</string>
+    <string name="Cpassword">Confirm Password</string>
+    <string name="email">someone@hostname.com</string>
+    <string name="signup">Sign UP</string>
+    <string name="login">Login</string>
+    <string name="policy_statement">By proceeding to sign Up you agree to policy and terms and condition of Dinga Manager</string>
+        <string name="manage_asset">Manage Asset</string>
+    <string name="report">Generate Report</string>
+     <string name="drawer_open">Open drawer</string>
+    <string name="drawer_close">Close drawer</string>
+    
+     <string name="assetname">Asset Name</string>
+     <string name="groupname">Group Name</string>
+     <string name="totalExpenses">Total Expenses</string>
+     <string name="totalReturns">Total Returns</string>
+     <string name="profitloss">Profit/Loss</string>
+      <string name="datecreated">Date Created:</string>
+       <string name="reportdate">Report Date:</string>
+      <string name="search">Search Asset</string>
+        <string name="model">Model:</string>
+          <string name="type"> Type:</string>
+          <string name="selgroup"> Select Group Name</string>
+          <string name="selcategory"> Select Category Name</string>
+           <string name="seltypeAsset"> Select Asset Use</string>
+           <string name="seldriver"> Select Driver</string>
+          <string name="selassistant"> Select Driver Assistance</string>
+              <string name="group_add"> Add </string>
+               <string name="cancel"> Cancel</string>
+                 <string name="capacity"> Asset Capacity</string>
+                <string name="add_group_fragment"> Add New group</string>
+                <string name="assetid"> KBA 567G</string>
+                 <string name="asset_add"> Add Asset</string>
+                 <string name="add_asset_fragment"> Add New Asset</string>
+                
+      
+
+</resources>

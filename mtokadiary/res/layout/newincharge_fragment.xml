@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/editinchargenames"
+        style="@style/generalFonts.editext"
+        android:ems="10"
+        android:hint="@string/inchargenames" />
+   <EditText
+        android:id="@+id/editinchargeusername"
+        style="@style/generalFonts.editext"
+        android:ems="10"
+        android:hint="@string/inchargeusername" >
+
+        <requestFocus />
+    </EditText>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btnincancel"
+            style="@style/generalFonts.buttons"
+            android:layout_width="122dp"
+            android:text="@string/cancel" />
+
+        <Button
+            android:id="@+id/btnincharge"
+            style="@style/generalFonts.buttons"
+            android:layout_width="122dp"
+            
+            android:text="@string/group_add" />
+    </LinearLayout>
+
+</LinearLayout>

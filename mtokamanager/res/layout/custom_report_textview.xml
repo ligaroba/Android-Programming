@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" 
+     android:background="@color/creambg">
+    
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:background="@color/widgetbg"  
+        >
+
+         <TextView
+             android:id="@+id/assetnamelabel"
+             android:layout_width="0dp"
+             android:layout_height="53dp"
+             android:layout_marginTop="0dp"
+             android:layout_weight="1"
+            android:hint="@string/assetname" />
+
+         <Button
+             android:id="@+id/btnedit"
+             android:layout_width="40dp"
+             android:layout_height="40dp"
+             android:background="@color/widgetbg"
+             android:drawableRight="@android:drawable/ic_menu_edit"
+            
+            />
+          <Button
+             android:id="@+id/btndelete"
+             android:layout_width="40dp"
+             android:layout_height="40dp"
+             android:background="@color/widgetbg"
+             android:drawableRight="@android:drawable/ic_menu_delete"
+            
+            />
+     
+		
+        
+	</LinearLayout>
+
+     <RelativeLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content" >
+
+         <TextView
+             android:id="@+id/groupnamelabel"
+             style="@style/textview_table"
+             android:text="@string/groupname" />
+
+         <TextView
+             android:id="@+id/groupname"
+             style="@style/textview_table"
+             android:layout_toRightOf="@+id/groupnamelabel"
+             android:hint="@string/groupname" />
+
+         <TextView
+             android:id="@+id/texpenses"
+             style="@style/textview_table"
+             android:layout_below="@+id/groupnamelabel"
+             android:text="@string/totalExpenses" />
+
+         <TextView
+             android:id="@+id/profitloss"
+             style="@style/textview_table"
+             android:layout_below="@+id/texpenses"
+             android:text="@string/profitloss" />
+
+         <TextView
+             android:id="@+id/showprofitloss"
+             style="@style/textview_table"
+             android:layout_below="@+id/showreturns"
+             android:layout_toRightOf="@+id/returns"
+             android:hint="@string/profitloss" />
+
+         <TextView
+             android:id="@+id/showreturns"
+             style="@style/textview_table"
+             android:layout_above="@+id/profitloss"
+             android:layout_alignParentRight="true"
+             android:hint="@string/totalReturns" />
+
+         <TextView
+             android:id="@+id/returns"
+             style="@style/textview_table"
+             android:layout_above="@+id/showprofitloss"
+             android:layout_toLeftOf="@+id/showreturns"
+             android:text="@string/totalReturns" />
+
+         <TextView
+             android:id="@+id/showtexpenses"
+             style="@style/textview_table"
+             android:layout_above="@+id/profitloss"
+             android:layout_toRightOf="@+id/texpenses"
+             android:hint="@string/totalExpenses" />
+     </RelativeLayout>
+
+				<LinearLayout
+				    android:layout_width="match_parent"
+				    android:layout_height="wrap_content"
+				    android:orientation="horizontal"
+				    android:background="@color/widgetbg" >
+
+				    <TextView
+				        android:id="@+id/datecreated"
+				        style="@style/textview_table.background"
+				        android:text="@string/datecreated" />
+
+				    <TextView
+				        android:id="@+id/showdatecreated"
+				        style="@style/textview_table"
+				        android:hint="@string/datecreated" />
+
+				   
+				         <TextView
+				        android:id="@+id/reporteddate"
+				        style="@style/textview_table"
+				        android:text="@string/reportdate" />
+
+				
+				     <TextView
+				        android:id="@+id/showreporteddate"
+				        style="@style/textview_table"
+				        android:hint="@string/reportdate" />
+
+				  
+				</LinearLayout>
+
+</LinearLayout>

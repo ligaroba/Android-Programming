@@ -1,5 +1,10 @@
 com.tasktop.preferences.calendar.first.run=true
+<<<<<<< HEAD
 com.tasktop.preferences.mylar.addedEvents=;\=;\=;;\=;\=;
 com.tasktop.preferences.mylar.deletedEvents=;\=;\=;;\=;\=;
+=======
+com.tasktop.preferences.mylar.addedEvents=;\=;\=;
+com.tasktop.preferences.mylar.deletedEvents=;\=;\=;
+>>>>>>> 11fb2499edb6234d39500f337e206f2e3a138163
 com.tasktop.preferences.mylar.updatedEvents=;\=;\=;
 eclipse.preferences.version=1
