@@ -1,0 +1,60 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.telosoft.mtoka.Asset_manager$PlaceholderFragment" >
+
+<LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp"
+        >
+        
+        
+         <EditText
+            android:id="@+id/search_asset"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/search" 
+            android:layout_weight="1"
+            android:layout_marginLeft="2dp"
+            android:inputType="text"
+            android:drawableRight="@android:drawable/ic_menu_search"/>
+
+         <Button
+             android:id="@+id/btnaddorg"
+             android:layout_width="80dp"
+             android:layout_height="50dp"
+             android:background="@color/light_blue"
+             android:text="Add Org"
+           
+            
+            />
+
+    </LinearLayout>
+     <TextView
+       android:id="@+id/report"
+       style="@style/general.textview"
+       android:text="@string/report" />
+
+    <Spinner
+        android:id="@+id/spinreport"
+        style="@style/general.spinner"
+        android:background="#fff"
+        android:entries="@array/report_array"
+       />
+
+    <ListView
+        android:id="@+id/assetlist"
+        android:layout_width="match_parent"
+         style="@style/general.textview"
+        android:layout_height="wrap_content" >
+    </ListView>
+
+</LinearLayout>

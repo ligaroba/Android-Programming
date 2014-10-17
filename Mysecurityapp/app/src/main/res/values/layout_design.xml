@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+      <style name="buttonsdashbooard" parent="@android:style/Widget.ProgressBar.Large">
+		      <item name="android:layout_width">150dp</item>
+	     <item name="android:layout_height">150dp</item>
+	      <item name="android:layout_marginLeft">0dp</item>
+	       <item name="android:paddingTop">5dp</item>
+	    <item name="android:orientation">horizontal</item> 
+	    
+	    
+</style>
+  <style name="layoutdashbooard" parent="@android:style/Widget.ProgressBar.Large">
+	      <item name="android:layout_width">fill_parent</item>
+	     <item name="android:layout_height">wrap_content</item>
+      <item name="android:layout_marginLeft">10dp</item>
+      <item name="android:layout_marginRight">10dp</item>
+      <item name="android:orientation">horizontal</item>
+      <item name="android:layout_gravity">center</item>
+	    
+	    
+</style>
+<style name="layoutdashbooard.bottom">
+   <item name="android:layout_marginTop">10dp</item>     
+</style>
+<style name="layoutdashbooard.top">
+   <item name="android:layout_marginTop">20dp</item>  
+ 
+</style>
+   <style name="layoutreport" parent="@android:style/Widget.ProgressBar.Large">
+	      <item name="android:layout_width">wrap_content</item>
+	     <item name="android:layout_height">wrap_content</item>
+	      <item name="android:layout_marginLeft">2dp</item>
+	      <item name="android:orientation">horizontal</item> 
+	    
+</style>
+<style name="layoutreport.bottom">
+   <item name="android:layout_marginTop">10dp</item>     
+</style>
+<style name="layoutreport.top">
+   <item name="android:layout_marginTop">20dp</item>  
+ 	    
+	    
+</style>  
+   
+
+
+ <style name="buttonsreport" parent="@android:style/Widget.ProgressBar.Large">
+		      <item name="android:layout_width">100dp</item>
+	     <item name="android:layout_height">110dp</item> 
+	      <item name="android:layout_marginLeft">2dp</item>
+	       <item name="android:paddingTop">2dp</item>
+	    <item name="android:orientation">horizontal</item> 
+	        
+</style>
+</resources>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">"Mazingira"</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_example">Example action</string>
+    <string name="action_settings">Settings</string>
+ 
+    <string name="phone">Phone Number</string>
+    <string name="password">Password</string>
+    <string name="Cpassword">Confirm Password</string>
+    <string name="email">someone@hostname.com</string>
+    <string name="signup">Sign UP</string>
+    <string name="login">Login</string>
+    <string name="policy_statement">By proceeding to sign Up you agree to policy and terms and condition of Mazingara</string>
+        <string name="manage_asset">Manage Asset</string>
+    <string name="report">Sort Organizations</string>
+     <string name="drawer_open">Open drawer</string>
+    <string name="drawer_close">Close drawer</string>
+    
+     
+      <string name="search">Search ...</string>
+       <string name="video">Take Video</string>
+      <string name="pic">Picture</string>
+      <string name="audio">Record Audio</string>
+      <string name="crimedescrip">Enter Tip description details  three ....</string>
+      <string name="sendreport">Send</string>
+      <string name="anonimity">Send Anonimously</string>
+      <string name="tipdetails">Add Tip Details</string>
+      
+      
+
+             
+               
+               
+               
+               
+         
+            
+                 <string name="deletemsg">Are you sure you want to delete?</string>
+                
+      
+
+</resources>

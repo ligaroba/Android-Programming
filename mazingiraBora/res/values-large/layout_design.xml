@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+      <style name="buttonsdashbooard" parent="@android:style/TextAppearance.Medium">
+		      <item name="android:layout_width">250dp</item>
+	     <item name="android:layout_height">250dp</item> 
+	      <item name="android:layout_marginLeft">10dp</item>
+	       <item name="android:paddingTop">20dp</item>
+	    <item name="android:orientation">horizontal</item> 
+	    
+	    
+</style>
+  <style name="layoutdashbooard" parent="@android:style/TextAppearance.Medium">
+	      <item name="android:layout_width">wrap_content</item>
+	     <item name="android:layout_height">wrap_content</item>
+	      <item name="android:layout_marginLeft">40dp</item>
+	      <item name="android:orientation">horizontal</item> 
+	    
+	    
+</style>
+<style name="layoutdashbooard.bottom">
+   <item name="android:layout_marginTop">10dp</item>     
+</style>
+<style name="layoutdashbooard.top">
+   <item name="android:layout_marginTop">70dp</item>     
+</style>
+
+
+
+
+<style name="layoutreport" parent="@android:style/TextAppearance.Medium">
+	      <item name="android:layout_width">wrap_content</item>
+	     <item name="android:layout_height">wrap_content</item>
+	      <item name="android:layout_marginLeft">30dp</item>
+	      <item name="android:orientation">horizontal</item> 
+	    
+</style>
+<style name="layoutreport.bottom">
+   <item name="android:layout_marginTop">5dp</item>     
+</style>
+<style name="layoutreport.top">
+   <item name="android:layout_marginTop">60dp</item>  
+ 	    
+	    
+</style> 
+
+
+ <style name="buttonsreport" parent="@android:style/TextAppearance.Medium">
+		      <item name="android:layout_width">180dp</item>
+	     <item name="android:layout_height">160dp</item> 
+	      <item name="android:layout_marginLeft">2dp</item>
+	      <item name="android:paddingTop">10dp</item>
+	     	    <item name="android:orientation">horizontal</item> 
+	        
+</style>
+
+
+ 
+
+
+
+</resources>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="80dp"
+    android:orientation="vertical" xmlns:app="http://schemas.android.com/apk/res/com.example.splashdemo">
+
+  
+   
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginStart="80dp"
+         android:orientation="horizontal"
+      app:layout_gravity="center_vertical"
+         >
+
+        <android.support.v7.widget.GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+           
+            >
+
+        <Button
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:paddingTop="20dp"
+            app:layout_gravity="center_horizontal"
+            android:drawableTop="@drawable/ic_agent"
+            android:text="Report Tip"
+             android:background="#9999FF" />
+</android.support.v7.widget.GridLayout>
+        <android.support.v7.widget.GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           android:padding="10dp"
+             >
+            
+             <Button
+                 android:layout_width="250dp"
+            android:layout_height="250dp"
+                 android:paddingTop="20dp"
+                 app:layout_gravity="center_horizontal"
+                 android:drawableTop="@drawable/ic_call"
+                 android:text="Emergency"
+                 android:background="#FF7575" />
+
+        </android.support.v7.widget.GridLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginStart="10dp"
+         android:orientation="horizontal"
+      app:layout_gravity="center_vertical"
+     
+       
+         >
+    <android.support.v7.widget.GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           android:padding="10dp"
+             >
+            
+             <Button
+                android:layout_width="250dp"
+            android:layout_height="250dp"
+                 android:paddingTop="20dp"
+                 app:layout_gravity="center_horizontal"
+                 android:drawableTop="@drawable/ic_gridmarker"
+                 android:text="Map"
+                  android:background="#85C285"
+                  />
+
+        </android.support.v7.widget.GridLayout>
+        <android.support.v7.widget.GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#6666b2"
+            
+            android:padding="10dp"
+            >
+
+        <Button
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            app:layout_gravity="center_horizontal"
+            android:drawableTop="@drawable/ic_mask"
+            android:paddingTop="20dp"
+            android:text="Wanted Persons"
+             android:background="#7f7fbf" />
+
+</android.support.v7.widget.GridLayout>
+    
+    </LinearLayout>
+  
+</LinearLayout>

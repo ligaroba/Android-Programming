@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/txtvpersonsname"
+        style="@style/textviewlayout"
+        android:layout_alignTop="@+id/imgvpersonpic"
+        android:layout_marginLeft="14dp"
+         android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/imgvpersonpic"
+
+        android:textSize="15sp"
+        android:hint="@string/wantedperson"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/txtvwdescriptn"
+        style="@style/textviewlayout"
+        android:layout_alignLeft="@+id/txtvpersonsname"
+        android:layout_below="@+id/txtvpersonsname"
+        android:layout_marginTop="15dp"
+        android:layout_height="wrap_content"
+              android:hint="@string/wantedthreatsate"
+              android:maxLines="1"
+              android:scrollHorizontally="true"
+              android:textSize="10sp"
+              android:ellipsize="end"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <ImageView
+        android:id="@+id/imgvpersonpic"
+        style="@style/imageviewlayout"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/design"
+        android:layout_alignParentTop="true"
+        android:paddingBottom="5dp"
+        android:src="@drawable/ic_person" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:background="@drawable/ic_rightpointer"
+        android:id="@+id/textView"
+        android:layout_below="@+id/txtvpersonsname"
+        android:layout_alignRight="@+id/txtvwdescriptn"
+        android:layout_alignEnd="@+id/txtvwdescriptn"/>
+
+
+</RelativeLayout>
+<!-- From: file:/opt/Workspace/Mysecurityapp/app/src/main/res/layout/custompersonslistitem.xml -->

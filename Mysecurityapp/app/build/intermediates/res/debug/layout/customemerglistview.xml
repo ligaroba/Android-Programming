@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+                >
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnmekemergcal"
+            android:paddingBottom="10dp"
+            android:drawableBottom="@android:drawable/stat_sys_phone_call"
+            android:background="@drawable/buttondesidn"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+           />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/organization"
+            android:textStyle="bold"
+            android:id="@+id/tvorgname"
+            android:layout_alignTop="@+id/btnmekemergcal"
+            android:layout_marginLeft="10dp"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/emercontact"
+            android:textColor="@color/emergred"
+            android:id="@+id/tvcontact"
+            android:layout_alignBottom="@+id/btnmekemergcal"
+            android:layout_alignLeft="@+id/tvorgname"
+            android:layout_alignStart="@+id/tvorgname"/>
+    </RelativeLayout>
+</LinearLayout><!-- From: file:/opt/Workspace/Mysecurityapp/app/src/main/res/layout/customemerglistview.xml -->

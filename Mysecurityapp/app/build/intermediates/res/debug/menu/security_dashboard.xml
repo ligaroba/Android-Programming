@@ -1,0 +1,54 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="co.ke.masterclass.mysecurity.SecurityDashboard" >
+    <item
+        android:id="@+id/action_share"
+        android:orderInCategory="100"
+       android:icon="@drawable/ic_share"
+       android:title=""
+       app:showAsAction="withText|ifRoom"/>
+    <item
+        android:id="@+id/action_refresh"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_refresh"
+        android:title=""
+        app:showAsAction="withText|ifRoom"/>
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_about"
+        android:orderInCategory="100"
+        android:title="@string/action_about"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_term_use"
+        android:orderInCategory="100"
+        android:title="@string/action_term_use"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_privacy"
+        android:orderInCategory="100"
+        android:title="@string/action_privacy"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_follow"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_share"
+        android:title="@string/action_follow"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_feedback"
+        android:orderInCategory="100"
+        android:title="@string/action_feedback"
+        app:showAsAction="never"/>
+
+
+
+</menu>
+<!-- From: file:/opt/Workspace/Mysecurityapp/app/src/main/res/menu/security_dashboard.xml -->

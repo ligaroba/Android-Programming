@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- From: file:/opt/Workspace/Mysecurityapp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values-large/values.xml -->
+    <eat-comment />
+
+    <bool name="abc_action_bar_embed_tabs_pre_jb">true</bool>
+    <bool name="abc_config_allowActionMenuItemTextWithIcon">true</bool>
+    <bool name="abc_split_action_bar_is_narrow">false</bool>
+
+    <dimen name="abc_config_prefDialogWidth">440dp</dimen>
+    <dimen name="abc_search_view_text_min_width">192dip</dimen>
+
+    <item name="dialog_fixed_height_major" type="dimen">60%</item>
+    <item name="dialog_fixed_height_minor" type="dimen">90%</item>
+    <item name="dialog_fixed_width_major" type="dimen">60%</item>
+    <item name="dialog_fixed_width_minor" type="dimen">90%</item>
+
+    <integer name="abc_max_action_buttons">4</integer>
+
+    <style name="Theme.Base.AppCompat.DialogWhenLarge" parent="Theme.Base.AppCompat.Dialog.FixedSize" />
+
+    <style name="Theme.Base.AppCompat.Light.DialogWhenLarge" parent="Theme.Base.AppCompat.Dialog.Light.FixedSize" />
+    <!-- From: file:/opt/Workspace/Mysecurityapp/app/src/main/res/values-large/widgetdesign.xml -->
+    <eat-comment />
+
+    <style name="buttonlayout" parent="@android:style/Widget.Button">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">80dp</item>
+        <item name="android:layout_margin">25dp</item>
+    </style>
+    <!-- From: file:/opt/Workspace/Mysecurityapp/app/src/main/res/values-large/layout_design.xml -->
+    <eat-comment />
+
+    <style name="buttonsdashbooard" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">250dp</item>
+        <item name="android:layout_height">250dp</item>
+        <item name="android:layout_marginLeft">0dp</item>
+        <item name="android:paddingTop">20dp</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <style name="buttonsreport" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">170dp</item>
+        <item name="android:layout_height">160dp</item>
+        <item name="android:layout_marginLeft">2dp</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+    <!-- From: file:/opt/Workspace/Mysecurityapp/app/src/main/res/values-large/widgetdesign.xml -->
+    <eat-comment />
+
+    <style name="checklayout" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">22dp</item>
+    </style>
+
+    <style name="edittextlayout" parent="@android:style/Widget.EditText">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">250dp</item>
+        <item name="android:layout_marginLeft">35dp</item>
+        <item name="android:layout_marginRight">35dp</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="imageviewlayout" parent="@android:style/Widget.ImageButton">
+        <item name="android:layout_width">100dp</item>
+        <item name="android:layout_height">80dp</item>
+        <item name="android:layout_marginLeft">14dp</item>
+        <item name="android:layout_marginTop">14dp</item>
+    </style>
+    <!-- From: file:/opt/Workspace/Mysecurityapp/app/src/main/res/values-large/layout_design.xml -->
+    <eat-comment />
+
+    <style name="layoutdashbooard" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <style name="layoutdashbooard.bottom">
+        <item name="android:layout_marginTop">10dp</item>
+    </style>
+
+    <style name="layoutdashbooard.top">
+        <item name="android:layout_marginTop">70dp</item>
+    </style>
+
+    <style name="layoutreport" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">0dp</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="layoutreport.bottom">
+        <item name="android:layout_marginTop">5dp</item>
+    </style>
+
+    <style name="layoutreport.top">
+        <item name="android:layout_marginTop">60dp</item>
+    </style>
+    <!-- From: file:/opt/Workspace/Mysecurityapp/app/src/main/res/values-large/widgetdesign.xml -->
+    <eat-comment />
+
+    <style name="listitemlayout" parent="@android:style/Widget.ListView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">10dp</item>
+    </style>
+
+    <style name="textviewlayout" parent="@android:style/Widget.TextView">
+        <item name="android:layout_width">300dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">0dp</item>
+        <item name="android:layout_marginTop">16dp</item>
+    </style>
+
+</resources>

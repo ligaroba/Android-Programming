@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="edittextlayout" parent="@android:style/Widget.EditText">
+        <item name="android:layout_width">540dp</item>
+	     <item name="android:layout_height">250dp</item> 
+	      <item name="android:layout_marginLeft">35dp</item>
+	      <item name="android:paddingTop">10dp</item>
+	     	    <item name="android:orientation">horizontal</item> 
+    </style>
+     <style name="buttonlayout" parent="@android:style/Widget.Button">
+          <item name="android:layout_width">fill_parent</item>
+	     <item name="android:layout_height">80dp</item> 
+	      <item name="android:layout_margin">25dp</item>
+	    
+    </style>
+    <style name="checklayout" parent="@android:style/Widget.CompoundButton.CheckBox">
+          <item name="android:layout_width">wrap_content</item>
+	     <item name="android:layout_height">wrap_content</item> 
+	      <item name="android:layout_marginLeft">22dp</item>
+	    
+    </style>
+   
+  <style name="imageviewlayout" parent="@android:style/Widget.ImageButton">
+          <item name="android:layout_width">100dp</item>
+	     <item name="android:layout_height">100dp</item> 
+	      <item name="android:layout_marginLeft">14dp</item>
+	      <item name="android:layout_marginTop">14dp</item>
+	    
+    </style>
+   <style name="textviewlayout" parent="@android:style/Widget.TextView">
+          <item name="android:layout_width">300dp</item>
+	     <item name="android:layout_height">wrap_content</item> 
+	      <item name="android:layout_marginLeft">0dp</item>
+	      <item name="android:layout_marginTop">16dp</item>
+	    
+    </style>
+   
+        <style name="listitemlayout" parent="@android:style/Widget.ListView">
+          <item name="android:layout_width">wrap_content</item>
+	     <item name="android:layout_height">wrap_content</item> 
+	      <item name="android:layout_marginLeft">10dp</item>
+	    
+    </style>
+   
+    
+</resources>

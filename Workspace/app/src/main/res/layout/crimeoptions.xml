@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/crimedashmsg"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+   <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+     
+
+    <LinearLayout
+       style="@style/layoutreport.top" >
+    <android.support.v7.widget.GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+        <Button
+            android:id="@+id/btntheft"
+            android:drawableTop="@drawable/ic_theft"
+            style="@style/buttonsreport"
+            android:text="@string/theft"
+            android:background="@color/navyblue" />
+        
+   </android.support.v7.widget.GridLayout>
+    <android.support.v7.widget.GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+        <Button
+            android:id="@+id/btnaccident"
+            android:drawableTop="@drawable/ic_theft"
+            style="@style/buttonsreport"
+            android:text="@string/accident"
+            android:background="@color/navyblue" />
+        
+   </android.support.v7.widget.GridLayout>
+    <android.support.v7.widget.GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+        <Button
+            android:id="@+id/btndistubance"
+            android:drawableTop="@drawable/ic_theft"
+            style="@style/buttonsreport"
+            android:text="@string/disturbances"
+            android:background="@color/navyblue" />
+        
+   </android.support.v7.widget.GridLayout>
+
+    </LinearLayout>
+    <LinearLayout
+       style="@style/layoutreport.bottom" >
+    <android.support.v7.widget.GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+        <Button
+            android:id="@+id/btnassult"
+            android:drawableTop="@drawable/ic_theft"
+            style="@style/buttonsreport"
+            android:text="@string/assult"
+            android:background="@color/navyblue" />
+        
+   </android.support.v7.widget.GridLayout>
+    <android.support.v7.widget.GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+        <Button
+            android:id="@+id/btndrugs"
+            android:drawableTop="@drawable/ic_theft"
+            style="@style/buttonsreport"
+            android:text="@string/drugs"
+            android:background="@color/navyblue" />
+        
+   </android.support.v7.widget.GridLayout>
+    <android.support.v7.widget.GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+        <Button
+            android:id="@+id/btnharrasment"
+            android:drawableTop="@drawable/ic_theft"
+            style="@style/buttonsreport"
+            android:text="@string/harrasment"
+            android:background="@color/navyblue" />
+        
+   </android.support.v7.widget.GridLayout>
+
+    </LinearLayout>
+    <LinearLayout
+       style="@style/layoutreport.bottom" >
+    <android.support.v7.widget.GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+        <Button
+            android:id="@+id/btnmedical"
+            android:drawableTop="@drawable/ic_theft"
+            style="@style/buttonsreport"
+            android:text="@string/mentalhealth"
+            android:background="@color/navyblue" />
+        
+   </android.support.v7.widget.GridLayout>
+    <android.support.v7.widget.GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+        <Button
+            android:id="@+id/btnsuspecious"
+            android:drawableTop="@drawable/ic_theft"
+            style="@style/buttonsreport"
+            android:text="@string/suspecious"
+            android:background="@color/navyblue" />
+        
+   </android.support.v7.widget.GridLayout>
+    <android.support.v7.widget.GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+        <Button
+            android:id="@+id/btnvandalism"
+            android:drawableTop="@drawable/ic_theft"
+            style="@style/buttonsreport"
+            android:text="@string/vandalism"
+            android:background="@color/navyblue" />
+        
+   </android.support.v7.widget.GridLayout>
+
+    </LinearLayout>
+    
+ <LinearLayout
+       style="@style/layoutreport.bottom" >
+    <android.support.v7.widget.GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+        <Button
+            android:id="@+id/btnmissing"
+            android:drawableTop="@drawable/ic_theft"
+            style="@style/buttonsreport"
+            android:text="@string/missing_person"
+            android:background="@color/navyblue" />
+        
+   </android.support.v7.widget.GridLayout>
+    <android.support.v7.widget.GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+        <Button
+            android:id="@+id/btnproperty"
+            android:drawableTop="@drawable/ic_theft"
+            style="@style/buttonsreport"
+            android:text="@string/property"
+            android:background="@color/navyblue" />
+        
+   </android.support.v7.widget.GridLayout>
+    <android.support.v7.widget.GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+        <Button
+            android:id="@+id/btncorruption"
+            android:drawableTop="@drawable/ic_theft"
+            style="@style/buttonsreport"
+            android:text="@string/corruption"
+            android:background="@color/navyblue" />
+        
+   </android.support.v7.widget.GridLayout>
+
+    </LinearLayout>
+    
+
+        </LinearLayout>
+    </ScrollView>
+    
+
+</LinearLayout>

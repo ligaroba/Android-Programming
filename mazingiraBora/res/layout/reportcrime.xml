@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:gravity="center_horizontal"
+        android:text="Tip Details"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+ 
+
+
+    <EditText
+        android:id="@+id/edcrimedescription"
+        style="@style/edittextlayout"
+        android:gravity="top"
+        android:background="@drawable/design"
+        android:hint="@string/crimedescrip"
+        android:inputType="textMultiLine" >
+
+        <requestFocus />
+    </EditText>
+
+    <LinearLayout
+        style="@style/layoutreport.top"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btnaudio"
+            style="@style/buttonsreport"
+            android:background="@color/navyblue"
+            android:drawableTop="@drawable/ic_audio"
+            android:text="@string/audio" />
+
+        <Button
+            android:id="@+id/btnpic"
+            style="@style/buttonsreport"
+            android:background="@color/navyblue"
+            android:drawableTop="@drawable/ic_picture"
+            android:text="@string/pic" />
+
+        <Button
+            android:id="@+id/btnvideo"
+            style="@style/buttonsreport"
+            android:background="@color/navyblue"
+            android:drawableTop="@drawable/ic_video"
+            android:text="@string/video" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnsendcrime"
+        style="@style/buttonlayout"
+        android:background="@color/repotblue"
+        android:text="@string/sendreport" />
+
+    <CheckBox
+        android:id="@+id/chbanonimous"
+       style="@style/checklayout"
+        android:checked="true"
+        android:text="@string/anonimity" />
+       </LinearLayout>
+    </ScrollView>
+</LinearLayout>

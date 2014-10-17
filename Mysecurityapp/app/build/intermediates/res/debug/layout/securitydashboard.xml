@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    >
+
+<LinearLayout
+       		 style="@style/layoutdashbooard.top"
+
+         >
+
+        <android.support.v7.widget.GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+         
+           
+            >
+
+        <Button
+            android:id="@+id/btnreport"
+            style="@style/buttonsdashbooard"
+            android:background="@color/repotblue"
+            android:drawableTop="@drawable/ic_agent"
+            android:text="@string/report" />
+
+</android.support.v7.widget.GridLayout>
+
+        <android.support.v7.widget.GridLayout
+            android:id="@+id/gridemerge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+            
+             <Button
+                  android:id="@+id/btnemergency"
+                style="@style/buttonsdashbooard"
+                 android:drawableTop="@drawable/ic_call"
+                 android:text="@string/emergency"
+                 android:background="@color/emergred" />
+
+        </android.support.v7.widget.GridLayout>
+    </LinearLayout>
+    <LinearLayout
+        style="@style/layoutdashbooard.bottom"
+     
+     
+       
+         >
+    <android.support.v7.widget.GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+        
+             >
+            
+             <Button
+                 android:id="@+id/btnmap"
+                 style="@style/buttonsdashbooard"
+                 android:background="@color/mapgreen"
+                 android:drawableTop="@drawable/ic_gridmarker"
+                 android:text="@string/map" />
+
+        </android.support.v7.widget.GridLayout>
+
+        <android.support.v7.widget.GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            
+             >
+
+        
+         <Button
+            android:id="@+id/btnwanted"
+            style="@style/buttonsdashbooard"
+            android:drawableTop="@drawable/ic_mask"
+            android:background="@color/repotblue"
+           android:text="@string/wanted" />
+
+</android.support.v7.widget.GridLayout>
+    
+    </LinearLayout>
+  
+    
+</LinearLayout>
+<!-- From: file:/opt/Workspace/Mysecurityapp/app/src/main/res/layout/securitydashboard.xml -->

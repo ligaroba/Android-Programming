@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_margin="30dp"
+        android:gravity="center_horizontal"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:background="@color/emergred"
+        android:textColor="@color/list_item_title"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/makinemergcal"
+        android:id="@+id/textView2"
+        android:layout_gravity="center_horizontal"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="405dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:id="@+id/listcontacts"
+            android:choiceMode="singleChoice"
+            android:layout_gravity="center_horizontal"/>
+
+    </RelativeLayout>
+
+   </ScrollView>
+
+
+</LinearLayout><!-- From: file:/opt/Workspace/Mysecurityapp/app/src/main/res/layout/emergency_contacts.xml -->

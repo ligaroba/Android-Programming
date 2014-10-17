@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="edittextlayout" parent="@android:style/Widget.EditText">
+        <item name="android:layout_width">fill_parent</item>
+	     <item name="android:layout_height">136dp</item> 
+	      <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+	      <item name="android:paddingTop">10dp</item>
+	     	    <item name="android:orientation">horizontal</item> 
+    </style>
+     <style name="buttonlayout" parent="@android:style/Widget.Button">
+          <item name="android:layout_width">fill_parent</item>
+	     <item name="android:layout_height">60dp</item> 
+	      <item name="android:layout_margin">5dp</item>
+	    
+    </style>
+    <style name="checklayout" parent="@android:style/Widget.CompoundButton.CheckBox">
+          <item name="android:layout_width">wrap_content</item>
+	     <item name="android:layout_height">wrap_content</item> 
+	      <item name="android:layout_marginLeft">10dp</item>
+	    
+    </style>
+   
+  <style name="imageviewlayout" parent="@android:style/Widget.ImageButton">
+          <item name="android:layout_width">90dp</item>
+	     <item name="android:layout_height">70dp</item>
+	      <item name="android:layout_marginLeft">14dp</item>
+	      <item name="android:layout_marginTop">5dp</item>
+	      <item name="android:layout_marginBottom">5dp</item>
+	    
+    </style>
+   <style name="textviewlayout" parent="@android:style/Widget.TextView">
+          <item name="android:layout_width">300dp</item>
+	     <item name="android:layout_height">wrap_content</item> 
+	      <item name="android:layout_marginLeft">0dp</item>
+	      <item name="android:textSize">15sp</item>
+	      <item name="android:layout_marginTop">5dp</item>
+	    
+    </style>
+   
+        <style name="listitemlayout" parent="@android:style/Widget.ListView">
+          <item name="android:layout_width">wrap_content</item>
+	     <item name="android:layout_height">wrap_content</item> 
+	      <item name="android:layout_marginLeft">10dp</item>
+	    
+    </style>
+   
+    
+</resources>

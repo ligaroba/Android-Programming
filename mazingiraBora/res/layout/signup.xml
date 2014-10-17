@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <EditText
+            android:id="@+id/signup_orgname"
+            style="@style/generalFonts.editext"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Org name" >
+
+            <requestFocus />
+        </EditText>
+
+    
+
+        <EditText
+            android:id="@+id/signup_contacts"
+            style="@style/generalFonts.editext"
+            android:ems="10"
+            android:inputType="textEmailAddress"
+            android:hint="Email" >
+
+            <requestFocus />
+        </EditText>
+        
+        
+     
+
+        <EditText
+            android:id="@+id/signup_password"
+            style="@style/generalFonts.editext"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:hint="@string/password" >
+
+            <requestFocus />
+        </EditText>
+
+        <EditText
+            android:id="@+id/signup_cpassword"
+            style="@style/generalFonts.editext"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:hint="@string/Cpassword" >
+
+            <requestFocus />
+        </EditText>
+
+        <Button
+            android:id="@+id/btn_signup"
+            style="@style/generalFonts.buttons"
+            android:ems="10"
+            android:text="@string/signup"
+             android:padding="5dp"
+            android:drawableRight="@drawable/ic_next" />
+		
+		
+		<LinearLayout android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:orientation="horizontal"
+		    android:gravity="center_horizontal">
+             
+        <TextView
+            android:id="@+id/txtpointlogin"
+            android:text="@string/login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:textSize="20sp"/>
+<Button
+            android:id="@+id/btn_signup_login"
+             android:ems="10"
+             android:layout_width="50dp"
+             android:layout_height="50dp"
+              android:layout_marginLeft="10dp"
+             android:background="@drawable/ic_next"
+           />
+	
+ 
+		    
+		</LinearLayout>
+        
+        <TextView
+            android:id="@+id/txtpolicy"
+            style="@style/generalFonts.textview"
+            android:text="@string/policy_statement" />
+    </LinearLayout>
+
+</ScrollView>

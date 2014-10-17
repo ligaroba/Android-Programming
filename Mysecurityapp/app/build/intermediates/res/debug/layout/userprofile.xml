@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+<ScrollView
+
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:layout_marginTop="20dp"
+        android:hint="@string/fullname"
+        android:ems="10"
+               android:id="@+id/editfullname"
+        android:layout_gravity="center_horizontal"/>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </LinearLayout>
+
+            <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:hint="@string/email"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:id="@+id/editemail"
+        android:layout_gravity="center_horizontal"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:hint="@string/tel"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:id="@+id/editphone"
+        android:layout_gravity="center_horizontal"/>
+    <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:hint="@string/social"
+                android:layout_marginTop="20dp"
+                android:ems="10"
+                android:id="@+id/editsocial"
+                android:layout_gravity="center_horizontal"/>
+  <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="30dp"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:text="@string/instruction"
+                android:id="@+id/instruction"
+               android:background="@color/repotblue"
+                android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="@string/county"
+        android:id="@+id/county"
+        android:textStyle="bold"/>
+
+    <Spinner
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spincounty"
+        android:entries="@array/counties"/>
+
+
+    <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:hint="@string/Constituency"
+                android:layout_marginTop="20dp"
+                android:ems="10"
+                android:id="@+id/editconstituency"
+                android:layout_gravity="center_horizontal"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:hint="@string/Estate"
+                android:layout_marginTop="20dp"
+                android:ems="10"
+                android:id="@+id/editestate"
+                android:layout_gravity="center_horizontal"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+
+        <Button
+            android:layout_width="fill_parent"
+            style="@style/buttonlayout"
+            android:text="Set Profile"
+            android:id="@+id/btnsetprofile"
+            android:background="@color/repotblue"
+
+   />
+             </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    </LinearLayout>
+
+
+<!-- From: file:/opt/Workspace/Mysecurityapp/app/src/main/res/layout/userprofile.xml -->

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+     android:background="@color/creambg" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent"
+        android:layout_height="5dp"
+        android:background="#fff"
+        />
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:background="@color/widgetbg"  
+        >
+
+         <TextView
+             android:id="@+id/assetnamelabel"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="10dp"
+             android:layout_weight="1"
+            android:hint="org speciality" />
+		  
+       
+     
+		
+        
+	</LinearLayout>
+
+     <RelativeLayout
+         android:layout_width="match_parent"
+         android:layout_height="40dp"
+          android:background="#fff" >
+
+         <TextView
+             android:id="@+id/groupnamelabel"
+             style="@style/textview_table"
+               android:layout_marginLeft="5dp"
+             android:text="Subsription model" />
+
+         <TextView
+             android:id="@+id/groupname"
+             style="@style/textview_table"
+             android:layout_toRightOf="@+id/groupnamelabel"
+             android:hint="org name" />
+
+         <TextView
+             android:id="@+id/txttype"
+             style="@style/textview_table"
+             android:layout_marginLeft="10dp"
+              android:layout_toRightOf="@+id/groupname"
+              android:text="" />
+
+         <TextView
+             android:id="@+id/typename"
+             style="@style/textview_table"
+              android:layout_marginLeft="5dp"
+             android:layout_toRightOf="@+id/txttype"
+             android:hint="" />
+         <TextView
+             android:id="@+id/txtcapacity"
+             style="@style/textview_table"
+              android:layout_marginLeft="20dp"
+              android:layout_toRightOf="@+id/typename"
+              android:text="members" />
+
+         <TextView
+             android:id="@+id/capacity"
+             style="@style/textview_table"
+              android:layout_marginLeft="5dp"
+             android:layout_toRightOf="@+id/txtcapacity"
+             android:hint="members" />
+        
+         <TextView
+             android:id="@+id/txtmodel"
+             style="@style/textview_table"
+              android:layout_marginLeft="5dp"
+              android:layout_below="@+id/groupname"
+              android:text="Contacts" />
+
+         <TextView
+             android:id="@+id/model"
+             style="@style/textview_table"
+             android:layout_toRightOf="@+id/txtmodel"
+              android:layout_marginLeft="5dp"
+              android:layout_below="@+id/groupname"
+             android:hint="sub model" />
+
+
+         
+
+         
+     </RelativeLayout>
+
+				
+
+</LinearLayout>
