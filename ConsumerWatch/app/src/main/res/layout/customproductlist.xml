@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/quantity"
+        android:id="@+id/tvqty"
+        android:layout_marginLeft="10dp"
+        android:layout_toEndOf="@+id/productlogo"
+        android:layout_alignBottom="@+id/productlogo"
+        android:layout_toRightOf="@+id/productlogo"
+        android:layout_marginBottom="25dp" />
+
+    <Button
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@android:drawable/ic_delete"
+        android:id="@+id/btndelete"
+        android:layout_alignTop="@+id/tvproductname"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/productname"
+        android:id="@+id/tvproductname"
+        android:layout_marginLeft="10dp"
+        android:textSize="15sp"
+        android:layout_toEndOf="@+id/productlogo"
+        android:layout_above="@+id/tvqty"
+        android:layout_toRightOf="@+id/productlogo" />
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="70dp"
+        android:id="@+id/productlogo"
+            android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+</RelativeLayout>

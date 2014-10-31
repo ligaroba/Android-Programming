@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Consumer Watch</string>
+    <string name="title_activity_location_map">Map</string>
+    <string name="productspin">Select an item to shop</string>
+    <string name="productname">Product Name</string>
+    <string name="quantity">quantity</string>
+    <string name="shop">Shop</string>
+    <string name="shoplist">Select Where to shop from</string>
+    <string name="shopname">Supermarket Name</string>
+    <string name="totalbudget">total budget</string>
+    <string name="itemname">Item Name</string>
+    <string name="Total">Total</string>
+    <string name="addtocart">add</string>
+    <string name="store">Stores Budget</string>
+
+    <string-array name="itemquantity">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+
+    <array name="logos">
+
+       <item>@drawable/hostess</item>
+        <item>@drawable/jogoo</item>
+        <item>@drawable/soko</item>
+        <item>@drawable/eliantoo</item>
+        <item> @drawable/eliantoo</item>
+        <item>@drawable/eliantoo</item>
+        <item>@drawable/eliantoo</item>
+        <item>@drawable/golden_fry</item>
+        <item> @drawable/golden_fry</item>
+        <item>@drawable/golden_fry</item>
+        <item>@drawable/golden_fry</item>
+        <item>@drawable/golden_fry</item>
+        <item>@drawable/golden_fry</item>
+        <item> @drawable/gold_milk</item>
+        <item>@drawable/gold_milk</item>
+        <item>@drawable/ilara</item>
+        <item>@drawable/ilara</item>
+        <item>@drawable/ilara</item>
+    </array>
+    <array name="superlogos">
+
+        <item>@drawable/turskys</item>
+        <item>@drawable/uchumi</item>
+        <item>@drawable/nakumat</item>
+        <item>@drawable/naivas</item>
+
+    </array>
+
+</resources>
